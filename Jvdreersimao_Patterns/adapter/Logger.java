@@ -1,0 +1,6 @@
+package Jvdreersimao_Patterns.adapter;
+
+public interface Logger {
+    void info(String message);
+    void error(String message);
+}
